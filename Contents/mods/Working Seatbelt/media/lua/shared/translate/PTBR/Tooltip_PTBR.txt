@@ -1,0 +1,3 @@
+Tooltip_PTBR = {
+	Tooltip_item_Airbag = "Pode ser instalado em um ve�culo para proteger contra ferimentos em acidentes.",
+}

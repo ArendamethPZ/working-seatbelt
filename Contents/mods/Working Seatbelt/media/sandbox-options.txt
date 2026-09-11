@@ -1,0 +1,158 @@
+VERSION = 1,
+
+option workingSeatbelt.seatbeltDamageReduction
+{
+    type = integer, min = 0,
+    max = 100, default = 50,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_seatbeltDamageReduction,
+}
+
+option workingSeatbelt.seatbeltFractureReduction
+{
+    type = integer, min = 0,
+    max = 100, default = 50,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_seatbeltFractureReduction,
+}
+
+option workingSeatbelt.seatbeltCausesChestFracture
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_seatbeltCausesChestFracture,
+}
+
+option workingSeatbelt.chanceChestFracture
+{
+    type = integer, min = 0,
+    max = 100, default = 50,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_chanceChestFracture,
+}
+
+option workingSeatbelt.chestFractureMinimumCrashStrength
+{
+    type = integer, min = 0,
+    max = 100, default = 60,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_chestFractureMinimumCrashStrength,
+}
+
+option workingSeatbelt.chestFractureTime
+{
+    type = integer, min = 0,
+    max = 100, default = 3,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_chestFractureTime,
+}
+
+option workingSeatbelt.exitVehicleAutoUnfasten
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_exitVehicleAutoUnfasten,
+}
+
+option workingSeatbelt.switchSeatAutoUnfasten
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_switchSeatAutoUnfasten,
+}
+
+option workingSeatbelt.seatbeltWarningIndicator
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_seatbeltWarningIndicator,
+}
+
+option workingSeatbelt.seatbeltWarningChime
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_seatbeltWarningChime,
+}
+
+option workingSeatbelt.playersToggleChime
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_playersToggleChime,
+}
+
+option workingSeatbelt.chimeMinimumSpeed
+{
+    type = integer, min = 0,
+    max = 100, default = 15,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_chimeMinimumSpeed,
+}
+
+option workingSeatbelt.airbagModule
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_airbagModule,
+}
+
+option workingSeatbelt.loreFriendlyAirbags
+{
+    type = boolean, default = false,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_loreFriendlyAirbags,
+}
+
+option workingSeatbelt.airbagMinimumCrashStrength
+{
+    type = integer, min = 0,
+    max = 100, default = 50,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_airbagMinimumCrashStrength,
+}
+
+option workingSeatbelt.airbagDamageReduction
+{
+    type = integer, min = 0,
+    max = 100, default = 50,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_airbagDamageReduction,
+}
+
+option workingSeatbelt.airbagFractureReduction
+{
+    type = integer, min = 0,
+    max = 100, default = 50,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_airbagFractureReduction,
+}
+
+option workingSeatbelt.airbagsAffectedByCondition
+{
+    type = boolean, default = true,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_airbagsAffectedByCondition,
+}
+
+option workingSeatbelt.airbagDeploymentAlert
+{
+    type = boolean, default = false,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_airbagDeploymentAlert,
+}
+
+option workingSeatbelt.canPlayerBeEjected
+{
+    type = boolean, default = false,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_canPlayerBeEjected,
+}
+
+option workingSeatbelt.ejectMinimumCrashStrength
+{
+    type = integer, min = 0,
+    max = 100, default = 65,
+    page = workingSeatbelt_workingSeatbeltOptions,
+    translation = workingSeatbelt_ejectMinimumCrashStrength,
+}

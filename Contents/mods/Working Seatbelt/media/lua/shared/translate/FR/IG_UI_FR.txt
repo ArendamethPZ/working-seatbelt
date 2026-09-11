@@ -1,0 +1,9 @@
+IG_UI_FR = 
+{
+	IGUI_VehiclePartAirbagFrontLeft = "Airbag Avant-Gauche",
+	IGUI_VehiclePartAirbagFrontRight = "Airbag Avant-Droit",
+
+	IGUI_PlayerSayExitVehicle = "Je ne peux pas sortir si la ceinture est attachée",
+	IGUI_PlayerSaySwitchSeat = "Je ne peux pas changer de siège si la ceinture est attachée",
+	IGUI_PlayerSayDeployAirbag = "*Déploiement de l'Airbag*",
+}

@@ -1,0 +1,7 @@
+{
+ "IGUI_VehiclePartAirbagFrontLeft": "Ïåðåäíÿÿ ëåâàÿ ïîäóøêà áåçîïàñíîñòè",
+ "IGUI_VehiclePartAirbagFrontRight": "Ïåðåäíÿÿ ïðàâàÿ ïîäóøêà áåçîïàñíîñòè",
+ "IGUI_PlayerSayExitVehicle": "Íå ìîãó âûéòè, ðåìåíü ïðèñòåãíóò",
+ "IGUI_PlayerSaySwitchSeat": "Íå ìîãó ñìåíèòü ñèäåíèå, ðåìåíü ïðèñòåãíóò",
+ "IGUI_PlayerSayDeployAirbag": "Ïîäóøêà áåçîïàñíîñòè ñðàáîòàëà"
+}

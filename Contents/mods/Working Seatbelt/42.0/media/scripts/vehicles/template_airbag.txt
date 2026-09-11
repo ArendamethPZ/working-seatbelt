@@ -1,0 +1,60 @@
+module Base
+{
+	template vehicle Airbag
+	{
+		part AirbagFrontLeft
+		{
+			area = SeatFrontLeft,
+		}
+
+		part AirbagFrontRight
+		{
+			area = SeatFrontRight,
+		}
+
+		part Airbag*
+		{
+			category = Other,
+			itemType = Base.Airbag,
+			mechanicRequireKey = true,
+
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:3,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:3,
+				test = Vehicles.UninstallTest.Default,
+			}
+			lua
+            {
+                create = Vehicles.Create.Default,
+            }
+		}
+	}
+}
+

@@ -1,0 +1,50 @@
+Sandbox_CN = {
+Sandbox_workingSeatbelt_workingSeatbeltOptions = "有效的安全带选项",
+
+Sandbox_workingSeatbelt_seatbeltDamageReduction = "安全带减伤",
+Sandbox_workingSeatbelt_seatbeltDamageReduction_tooltip = "如果乘坐者系好安全带并在车祸中受伤，减少的伤害百分比",
+
+Sandbox_workingSeatbelt_seatbeltFractureReduction = "安全带骨折减少",
+Sandbox_workingSeatbelt_seatbeltFractureReduction_tooltip = "如果乘坐者系好安全带并在车祸中受伤，每个受伤部位减少的骨折时间百分比。除非设置为100，否则实际上并不能防止骨折",
+
+Sandbox_workingSeatbelt_seatbeltCausesChestFracture = "安全带导致胸部骨折",
+Sandbox_workingSeatbelt_seatbeltCausesChestFracture_tooltip = "如果启用，乘坐者在系好安全带的情况下发生车祸时，有随机几率导致胸部骨折",
+
+Sandbox_workingSeatbelt_chanceChestFracture = "胸部骨折几率",
+Sandbox_workingSeatbelt_chanceChestFracture_tooltip = "如果乘坐者在系好安全带的情况下因车祸受伤，导致胸部骨折的几率",
+
+Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength = "导致胸部骨折的最小碰撞强度",
+Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength_tooltip = "在乘坐者系好安全带的情况下，发生车祸并导致胸部骨折所需的最小碰撞强度",
+
+Sandbox_workingSeatbelt_chestFractureTime = "胸部骨折时间",
+Sandbox_workingSeatbelt_chestFractureTime_tooltip = "在乘坐者系好安全带的情况下，发生车祸导致胸部骨折时，定义的胸部骨折时间",
+
+Sandbox_workingSeatbelt_exitVehicleAutoUnfasten = "车辆退出时自动解开安全带"
+Sandbox_workingSeatbelt_exitVehicleAutoUnfasten_tooltip = "如果玩家尝试在系好安全带的情况下退出车辆，则自动强制玩家执行安全带解开的定时动作。如果设置为false，则玩家必须在退出前手动解开安全带"
+
+Sandbox_workingSeatbelt_switchSeatAutoUnfasten = "切换座位时自动解开安全带",
+Sandbox_workingSeatbelt_switchSeatAutoUnfasten_tooltip = "如果玩家尝试在系好安全带的情况下切换座位，则自动强制玩家执行安全带解开的定时动作。如果设置为false，则玩家必须在切换座位前手动解开安全带",
+
+Sandbox_workingSeatbelt_airbagModule = "气囊模块",
+Sandbox_workingSeatbelt_airbagModule_tooltip = "如果禁用，气囊将不起作用，也不会受到/影响车祸",
+
+Sandbox_workingSeatbelt_loreFriendlyAirbags = "符合Zomboid故事背景的气囊",
+Sandbox_workingSeatbelt_loreFriendlyAirbags_tooltip = "如果启用，根据Zomboid故事背景，某些车辆将不配备气囊",
+
+Sandbox_workingSeatbelt_airbagMinimumCrashStrength = "气囊最小碰撞强度",
+Sandbox_workingSeatbelt_airbagMinimumCrashStrength_tooltip = "要部署气囊所需的最小碰撞强度",
+
+Sandbox_workingSeatbelt_airbagDamageReduction = "气囊减伤",
+Sandbox_workingSeatbelt_airbagDamageReduction_tooltip = "气囊部署时减少的伤害百分比",
+
+Sandbox_workingSeatbelt_airbagFractureReduction = "气囊骨折减少",
+Sandbox_workingSeatbelt_airbagFractureReduction_tooltip = "如果气囊由于车祸部署后导致某个部位骨折，每个受伤部位减少的骨折时间百分比。除非设置为100，否则实际上并不能防止骨折",
+
+Sandbox_workingSeatbelt_airbagsAffectedByCondition = "气囊受条件影响",
+Sandbox_workingSeatbelt_airbagsAffectedByCondition_tooltip = "如果启用，气囊的伤害减少将受到它们的状态的影响",
+
+Sandbox_workingSeatbelt_airbagDeploymentAlert = "气囊部署警报",
+Sandbox_workingSeatbelt_airbagDeploymentAlert_tooltip = "如果启用，在气囊部署时，在玩家头顶将显示警报",
+
+
+}

@@ -1,0 +1,8 @@
+name=Working Seatbelt
+poster=poster.png
+id=WorkingSeatbelt
+description=<PUSHRGB:1,1,1> <H1> <CENTRE> Introducing Seatbelts! </CENTRE> </H1> <BR> <TEXT> <LEFT> <SIZE:medium> <PUSHRGB:1,1,1> Stay safe in the apocalypse by fastening your seatbelt and reducing the damage taken from car crashes, as you navigate the infected streets of Kentucky
+author=Arendameth
+modversion=1.0.0
+versionMin=42.0
+icon=icon.png

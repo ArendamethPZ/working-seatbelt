@@ -1,0 +1,67 @@
+Sandbox_EN = {
+	Sandbox_workingSeatbelt_workingSeatbeltOptions = "Working Seatbelt Options",
+
+	Sandbox_workingSeatbelt_seatbeltDamageReduction = "Seatbelt damage reduction",
+	Sandbox_workingSeatbelt_seatbeltDamageReduction_tooltip = "The percentage of damage reduced if a player wearing seatbelt takes damages from a car crash",
+
+	Sandbox_workingSeatbelt_seatbeltFractureReduction = "Seatbelt fracture reduction",
+	Sandbox_workingSeatbelt_seatbeltFractureReduction_tooltip = "The percentage of fracture time reduced per fractured bodypart, if a fracture is resulted after a player wearing a seatbelt takes damages from a car crash. This doesn't actually prevent fractures unless set to 100",
+
+	Sandbox_workingSeatbelt_seatbeltCausesChestFracture = "Seatbelt causes chest fracture",
+	Sandbox_workingSeatbelt_seatbeltCausesChestFracture_tooltip = "If enabled, there'll be a random chance for the player to get a chest fracture, if he crashes while the seatbelt is fastened",
+
+	Sandbox_workingSeatbelt_chanceChestFracture = "Chest fracture chance",
+	Sandbox_workingSeatbelt_chanceChestFracture_tooltip = "The chance for the player to get a chest fracture if he takes damage from a car crash while seatbelt is fastened",
+
+	Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength = "Minimum crash strength for a chest fracture",
+	Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength_tooltip = "The minimum crash strength that is required for a player to get a chest fracture while the seatbelt is buckled",
+	
+	Sandbox_workingSeatbelt_chestFractureTime = "Chest fracture time",
+	Sandbox_workingSeatbelt_chestFractureTime_tooltip = "Defines the chest fracture time if a fracture is applied to the chest in a car crash, while the seatbelt is buckled",
+
+	Sandbox_workingSeatbelt_exitVehicleAutoUnfasten = "Seatbelt auto unfasten on vehicle exit",
+	Sandbox_workingSeatbelt_exitVehicleAutoUnfasten_tooltip = "Automatically forces the player into the seatbelt unfasten timed action if the player attempts to exit the vehicle while seatbelt is fastened. If set to false, the player will have to manually unfasten it before exiting",
+
+	Sandbox_workingSeatbelt_switchSeatAutoUnfasten = "Seatbelt auto unfasten on switch seat",
+	Sandbox_workingSeatbelt_switchSeatAutoUnfasten_tooltip = "Automatically forces the player into the seatbelt unfasten timed action if the player attempts to switch seats while seatbelt is fastened. If set to false, the player will have to manually unfasten it before switching seats",
+
+	Sandbox_workingSeatbelt_seatbeltWarningIndicator = "Seatbelt Warning Indicator",
+	Sandbox_workingSeatbelt_seatbeltWarningIndicator_tooltip = "If enabled, a warning indicator will display on the vehicle's dashboard if the driver turns on a vehicle engine while not wearing a seatbelt, or unbuckles the seatbelt while the engine is running.",
+
+	Sandbox_workingSeatbelt_seatbeltWarningChime = "Seatbelt Warning Chime",
+	Sandbox_workingSeatbelt_seatbeltWarningChime_tooltip = "If enabled, a warning sound will play if the driver turns on a vehicle engine while not wearing a seatbelt, or unbuckles the seatbelt while the engine is running.",
+
+	Sandbox_workingSeatbelt_playersToggleChime = "Players can toggle seatbelt chime",
+	Sandbox_workingSeatbelt_playersToggleChime_tooltip = "Whether or not players can right click the seatbelt indicator to toggle the chime on/off.",
+
+	Sandbox_workingSeatbelt_chimeMinimumSpeed = "Chime minimum vehicle speed (KM/H)",
+	Sandbox_workingSeatbelt_chimeMinimumSpeed_tooltip = "The minimum vehicle speed for the seatbelt warning chime to start working (KM/H)",
+
+	Sandbox_workingSeatbelt_airbagModule = "Airbag module",
+	Sandbox_workingSeatbelt_airbagModule_tooltip = "If disabled, airbags will serve no function, nor will they affect/be affected by car crashes",
+
+	Sandbox_workingSeatbelt_loreFriendlyAirbags = "Lore friendly airbags",
+	Sandbox_workingSeatbelt_loreFriendlyAirbags_tooltip = "If enabled, certain vehicles won't have airbags according to Zomboid lore",
+
+	Sandbox_workingSeatbelt_airbagMinimumCrashStrength = "Airbag minimum crash strength",
+	Sandbox_workingSeatbelt_airbagMinimumCrashStrength_tooltip = "The minimum crash strength for an airbag to be deployed",
+
+	Sandbox_workingSeatbelt_airbagDamageReduction = "Airbag damage reduction",
+	Sandbox_workingSeatbelt_airbagDamageReduction_tooltip = "The percentage of damage reduced when an airbag is deployed",
+
+	Sandbox_workingSeatbelt_airbagFractureReduction = "Airbag fracture reduction",
+	Sandbox_workingSeatbelt_airbagFractureReduction_tooltip = "The percentage of fracture time reduced per fractured bodypart, if a fracture is resulted after an airbag is deployed due to a car crash. This doesn't actually prevent fractures unless set to 100",
+
+	Sandbox_workingSeatbelt_airbagsAffectedByCondition = "Airbags affected by condition",
+	Sandbox_workingSeatbelt_airbagsAffectedByCondition_tooltip = "If enabled, the damage reduction of airbags will be affected by their condition",
+
+	Sandbox_workingSeatbelt_airbagDeploymentAlert = "Airbag deployment alert",
+	Sandbox_workingSeatbelt_airbagDeploymentAlert_tooltip = "If enabled, an alert will show above the player when the airbag deploys",
+
+	Sandbox_workingSeatbelt_canPlayerBeEjected = "Player can be ejected",
+	Sandbox_workingSeatbelt_canPlayerBeEjected_tooltip = "Whether or not the player can be thrown out of the windshield upon a severe car crash, if the windshield is broken and the player is not wearing a seatbelt.<br>WARNING: WILL MOST LIKELY LEAD TO DEATH!",
+
+	Sandbox_workingSeatbelt_ejectMinimumCrashStrength = "Eject minimum crash strength",
+	Sandbox_workingSeatbelt_ejectMinimumCrashStrength_tooltip = "The minimum crash strength for a player to get ejected out of the windshield",
+
+}

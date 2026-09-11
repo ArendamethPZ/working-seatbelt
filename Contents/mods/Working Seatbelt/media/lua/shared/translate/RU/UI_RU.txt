@@ -1,0 +1,7 @@
+UI_RU = {
+    UI_optionscreen_binding_Seatbelt Options = "����� ������������ �����",
+    UI_optionscreen_binding_ToggleSeatbelt = "����������� ������ ������������",
+    UI_buckleAlert = "�� ��������� � ������ ������������! �������� ������ ������� ����, ����� �������� ��� ��������� �������� ������.",
+}
+
+

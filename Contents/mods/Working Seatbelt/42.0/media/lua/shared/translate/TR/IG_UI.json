@@ -1,0 +1,7 @@
+{
+ "IGUI_VehiclePartAirbagFrontLeft": "On Sol Hava Yastigi",
+ "IGUI_VehiclePartAirbagFrontRight": "On Sag Hava Yastigi",
+ "IGUI_PlayerSayExitVehicle": "Emniyet kemeri bagliyken cikamam",
+ "IGUI_PlayerSaySwitchSeat": "Emniyet kemeri bagliyken koltuk degistiremem",
+ "IGUI_PlayerSayDeployAirbag": "*Hava yastigi acilir*"
+}

@@ -1,0 +1,119 @@
+local WorkingSeatbelt = require("WorkingSeatbelt")
+local SharedUtils = require("WorkingSeatbelt_SharedUtils")
+
+----------------------------------------------------------------------
+-- Custom onEngineStart event
+function WorkingSeatbelt.onEngineStart(vehicle)
+    local character = getPlayer()
+    if not character then return end
+
+    if not vehicle then return end
+
+    local fullName = vehicle:getScript():getFullName()
+
+    -- This part shows the seatbelt indicator warning and playes the chime sound if the player starts engine and not wearing seatbelt.
+    if not WorkingSeatbelt.seatbeltBlacklist[fullName] then -- If vehicle accepts seatbelts
+        if not SharedUtils.isWearingSeatbelt(character) then -- If player is not wearing a seatbelt
+            if SandboxVars.workingSeatbelt.seatbeltWarningIndicator then
+                ISVehicleDashboard.sbTex:setVisible(true) -- Show seatbelt warning indicator
+            end
+            if SandboxVars.workingSeatbelt.seatbeltWarningChime then
+                if SharedUtils.getSeatbeltChimeState(vehicle) then
+                    if not vehicle:getEmitter():isPlaying("Chime") then -- If the chime warning sound is not playing
+                        local speed = vehicle:getCurrentSpeedKmHour()
+                        if speed >= SandboxVars.workingSeatbelt.chimeMinimumSpeed then
+                            vehicle:getEmitter():playSoundImpl("Chime", IsoObject.new()) -- Play chime warning sound
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+----------------------------------------------------------------------
+-- Check if player loads into a vehicle with no seatbelt buckled, and act accordingly
+
+local function onEnterVehicle(character)
+    local vehicle = character:getVehicle()
+    WorkingSeatbelt.lastOccupiedVehicle = vehicle
+
+    if SandboxVars.workingSeatbelt.seatbeltWarningChime then
+        if SharedUtils.getSeatbeltChimeState(vehicle) then
+            if vehicle then
+                if not WorkingSeatbelt.seatbeltBlacklist[vehicle:getScript():getFullName()] then
+                    if not SharedUtils.isWearingSeatbelt(character) then
+                        if vehicle:isEngineRunning() then
+                            if vehicle:isDriver(character) then
+                                if not vehicle:getEmitter():isPlaying("Chime") then
+                                    local speed = vehicle:getCurrentSpeedKmHour()
+                                    if speed >= SandboxVars.workingSeatbelt.chimeMinimumSpeed then
+                                        vehicle:getEmitter():playSoundImpl("Chime", IsoObject.new())
+                                    end
+                                end
+                            end
+                            if SandboxVars.workingSeatbelt.seatbeltWarningIndicator then
+                                ISVehicleDashboard.sbTex:setVisible(true)
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+Events.OnEnterVehicle.Add(onEnterVehicle)
+
+local function onExitVehicle(character)
+    local vehicle = WorkingSeatbelt.lastOccupiedVehicle
+    if not vehicle then return end
+
+    if not vehicle:getDriver() then
+        if SandboxVars.workingSeatbelt.seatbeltWarningChime then
+            if SharedUtils.getSeatbeltChimeState(vehicle) then
+                if not WorkingSeatbelt.seatbeltBlacklist[vehicle:getScript():getFullName()] then
+                    if vehicle:isEngineRunning() then
+                        if vehicle:getEmitter():isPlaying("Chime") then
+                            vehicle:getEmitter():stopSoundByName("Chime")
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+Events.OnExitVehicle.Add(onExitVehicle)
+----------------------------------------------------------------------
+local bind = {}
+bind.value = "[Seatbelt Options]"
+table.insert(keyBinding, bind)
+
+bind = {}
+bind.value = "ToggleSeatbelt"
+bind.key = Keyboard.KEY_3
+table.insert(keyBinding, bind)
+
+-- Function to handle seatbelt toggle
+local function KeyUp(keynum)
+    local player = getPlayer()
+    if not player then return end
+
+    local vehicle = player:getVehicle()
+    if not vehicle then return end
+
+    local fullName = vehicle:getScript():getFullName()
+    if not WorkingSeatbelt.seatbeltBlacklist[fullName] then
+        if keynum == getCore():getKey("ToggleSeatbelt") then
+            -- Check the seatbelt status
+            if player:getModData().Seatbelt_sbStatus then
+                WorkingSeatbelt.onDoSeatbelt(player, false)
+            else
+                WorkingSeatbelt.onDoSeatbelt(player, true)
+            end
+        end
+    end
+end
+
+Events.OnKeyPressed.Add(KeyUp)

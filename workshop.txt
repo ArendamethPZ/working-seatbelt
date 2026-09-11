@@ -1,0 +1,70 @@
+version=1
+id=3055029361
+title=Working Seatbelt
+description=[h1]Description[/h1]
+description=Stay safe in the apocalypse, either by fastening your seatbelt, or relying on your airbag, and reduce the damage taken from car crashes, as you navigate the infected streets of Kentucky!
+description=
+description=[h1]Important Note[/h1]
+description=The vehicle damage system in Project Zomboid operates randomly, meaning that even with identical conditions (such as player health, speed, and type of car), two crashes can result in different levels of damage. In one instance, you might end up with 75% health and no serious injuries, while in another, you could have only 20% health and several deep wounds. It's important to know that this mod can't help with crashes that are bad enough to lead to death, due to limitations in the game's scripts. At the current moment, the mod will only reduce damage and fractures resulted in a car crash. For other wounds (Cuts/scratches/etc), they'll be added in later updates
+description=
+description=[h1]Compatibility[/h1]
+description=[list]
+description=    [*][b]Other Mods[/b]
+description=    [list]
+description=        [*] Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3007922923]Proper Vehicle Injuries for MP[/url]
+description=        [*] Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3048123717]Real Knockouts[/url]
+description=        [*] Compatible with vehicle mods
+description=    [/list]
+description=    [*][b]Game Version[/b] - Tested and works on 41.78.16+. Not tested on earlier versions
+description=    [*][b]Multiplayer[/b] - Functional in multiplayer
+description=    [*][b]Pre-existing saves[/b] - Can be added to your pre-existing save, though sandbox settings will be set at default values, which may not be ideal for everyone
+description=[/list]
+description=
+description=[h1]To-do[/h1]
+description=The following feature(s) are planned to be added in the future for this mod
+description=[list]
+description=    [*]Reduce other wounds (Bleeding/Scratches/etc) from car crashes
+description=[/list]
+description=
+description=[h1]Known Bugs/Issues[/h1]
+description=[list]
+description=    [*]None at the moment
+description=[/list]
+description=
+description=[h1]Translations[/h1]
+description=The mod is currently available in English and multiple other languages, which can be seen at the credits section.
+description=
+description=If you'd like to translate this mod to your local language, feel free to do so, upload the translation, and comment out the link so it can be added.
+description=Not sure where to start? Check out [b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3006690572]this guide[/url][/b]
+description=
+description=[h1]Links[/h1]
+description=[url=https://discord.gg/ekaZW6jD3E][img]https://i.ibb.co/rF4BGFb/discord-Button.png[/img][/url] - Join me on Discord
+description=[url=https://ko-fi.com/arendameth][img]https://i.ibb.co/f43JTJc/button.png[/img][/url] - I love Coffee. Perhaps you'll consider buying me one?
+description=
+description=[h1]Feedback[/h1]
+description=Whether it is a suggestion, feedback, or something else you've got on mind, it'd be hugely appreciated!
+description=
+description=[img]https://i.ibb.co/Y2qkMXV/Rate-Fav.gif[/img]
+description=
+description=[h1]Credits[/h1]
+description=[list]
+description=    [*]Sound effects from [url=https://pixabay.com/]Pixabay[/url]
+description=    [*]Seatbelt icon from [url=https://pngtree.com/]PngTree[/url]
+description=    [*]Seatbelt icon improved to fit the game's style thanks to [url=https://steamcommunity.com/id/agitatio]Agitatio[/url]
+description=    [*]Russian translation by [url=https://steamcommunity.com/id/MoonShi]MoonShi[/url]
+description=    [*]Korean translation by [url=https://steamcommunity.com/profiles/76561198006110278]BeNice1[/url]
+description=    [*]Chinese translation by [url=https://steamcommunity.com/id/ErogeXiao]Eroge[/url]
+description=    [*]PTBR translation by [url=https://steamcommunity.com/id/theleoamaral]theleo[/url]
+description=    [*]French translation by [url=https://steamcommunity.com/profiles/76561198173034463]?????????[/url]
+description=    [*]Italian translation by [url=https://steamcommunity.com/profiles/76561198053090332]Lore11[/url]
+description=[/list]
+description=
+description=[quote]This mod's permissions fall under TIS's policy [url=https://theindiestone.com/forums/index.php?/topic/2530-mod-permissions/#comment-36478]Ask for permission[/url]
+description=
+description=This mod can only be added to and extended with the express permission from the original creator. Having received permission, credit must be given to the original creator, both within the files of the mod and wherever the mod roams online.
+description=
+description=If no permission is received you may not alter the mod, and it must be treated as a mod that is 'On Lockdown'.
+description=
+description=The only exception is that servers may freely include this mod in their modpacks, with the freedom to alter it or make modifications as they see fit, as long as credits are properly given to the original creator.[/quote]
+tags=Build 41;Build 42;Interface;Realistic;Vehicles
+visibility=public

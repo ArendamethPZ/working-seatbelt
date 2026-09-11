@@ -1,0 +1,4 @@
+ContextMenu_PTBR = {
+	ContextMenu_FastenSeatbelt = "Colocar Cinto de Segurança",
+	ContextMenu_UnfastenSeatbelt = "Retirar Cinto de Segurança"
+}

@@ -1,0 +1,9 @@
+IG_UI_EN = 
+{
+	IGUI_VehiclePartAirbagFrontLeft = "Front Left Airbag",
+	IGUI_VehiclePartAirbagFrontRight = "Front Right Airbag",
+
+	IGUI_PlayerSayExitVehicle = "I can't exit while the seatbelt is fastened",
+	IGUI_PlayerSaySwitchSeat = "I can't switch seats while the seatbelt is fastened",
+	IGUI_PlayerSayDeployAirbag = "*The airbag deploys*",
+}

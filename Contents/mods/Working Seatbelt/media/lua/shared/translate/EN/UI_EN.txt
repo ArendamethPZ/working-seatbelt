@@ -1,0 +1,7 @@
+UI_EN = {
+    UI_optionscreen_binding_Seatbelt Options = "Working Seatbelt Options",
+    UI_optionscreen_binding_ToggleSeatbelt = "Toggle Seatbelt"
+    UI_buckleAlert = "You need to buckle up! Right click to toggle chime."
+}
+
+

@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+	ContextMenu_FastenSeatbelt = "系上安全带",
+	ContextMenu_UnfastenSeatbelt = "解开安全带",
+	}

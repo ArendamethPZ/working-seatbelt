@@ -1,0 +1,5 @@
+ContextMenu_EN = {
+	ContextMenu_FastenSeatbelt = "Fasten Seatbelt",
+	ContextMenu_UnfastenSeatbelt = "Unfasten Seatbelt",
+	ContextMenu_ToggleSeatbeltChime = "Toggle Seatbelt Chime",
+	}

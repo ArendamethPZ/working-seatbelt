@@ -1,0 +1,5 @@
+ContextMenu_EN = {
+	ContextMenu_FastenSeatbelt = "Пристегнуть ремень"
+	ContextMenu_UnfastenSeatbelt = "Отстегнуть ремень"
+	ContextMenu_ToggleSeatbeltChime = "Переключить сигнал безопасности"
+	}

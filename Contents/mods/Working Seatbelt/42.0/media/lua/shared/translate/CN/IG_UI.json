@@ -1,0 +1,7 @@
+{
+ "IGUI_VehiclePartAirbagFrontLeft": "驾驶位安全气囊",
+ "IGUI_VehiclePartAirbagFrontRight": "副驾驶位安全气囊",
+ "IGUI_PlayerSayExitVehicle": "安全带没解开，我没法下车！",
+ "IGUI_PlayerSaySwitchSeat": "安全带没解开，我没法换座位！",
+ "IGUI_PlayerSayDeployAirbag": "*安全气囊已弹出*"
+}

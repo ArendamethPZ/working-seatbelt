@@ -1,0 +1,8 @@
+IG_UI_IT = {
+	IGUI_VehiclePartAirbagFrontLeft = "Airbag anteriore sinistro",
+	IGUI_VehiclePartAirbagFrontRight = "Airbag anteriore destro",
+
+	IGUI_PlayerSayExitVehicle = "Non posso uscire mentre la cintura di sicurezza è allacciata",
+	IGUI_PlayerSaySwitchSeat = "Non posso cambiare sedile mentre la cintura di sicurezza è allacciata",
+	IGUI_PlayerSayDeployAirbag = "*L'airbag si è attivato*",
+}

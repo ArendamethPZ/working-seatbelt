@@ -1,0 +1,9 @@
+IG_UI_EN = 
+{
+	IGUI_VehiclePartAirbagFrontLeft = "Передняя левая подушка безопасности",
+	IGUI_VehiclePartAirbagFrontRight = "Передняя правая подушка безопасности",
+
+	IGUI_PlayerSayExitVehicle = "Не могу выйти, ремень пристегнут",
+	IGUI_PlayerSaySwitchSeat = "Не могу сменить сидение, ремень пристегнут",
+	IGUI_PlayerSayDeployAirbag = "Подушка безопасности сработала",
+}

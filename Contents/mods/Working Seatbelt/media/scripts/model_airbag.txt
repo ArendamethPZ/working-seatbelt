@@ -1,0 +1,9 @@
+module Base
+{
+	model Airbag_Ground
+    {
+        mesh = WorldItems/Airbag,
+        scale = 0.003,
+        texture = AirbagTexture,
+    }
+}

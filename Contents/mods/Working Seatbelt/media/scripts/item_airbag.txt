@@ -1,0 +1,16 @@
+module Base
+{
+    /************************ Mechanic Items ************************/
+    item Airbag
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	3,
+        Type	=	Normal,
+        DisplayName	=	Airbag,
+        Icon	=	Airbag,
+	    Tooltip = Tooltip_item_Airbag,
+        WorldStaticModel = Airbag_Ground,
+        MechanicsItem = TRUE,
+		ConditionMax = 100,
+    }
+}

@@ -1,0 +1,66 @@
+Sandbox_FR = {
+	Sandbox_workingSeatbelt_workingSeatbeltOptions = "Working Seatbelt Options",
+
+	Sandbox_workingSeatbelt_seatbeltDamageReduction = "Réduction des dommages avec la ceinture de sécurité",
+	Sandbox_workingSeatbelt_seatbeltDamageReduction_tooltip = "Le pourcentage de dégâts réduits si un joueur portant la ceinture de sécurité subit des dégâts lors d'un accident de voiture.",
+
+	Sandbox_workingSeatbelt_seatbeltFractureReduction = "Réduction des fractures avec la ceinture de sécurité",
+	Sandbox_workingSeatbelt_seatbeltFractureReduction_tooltip = "Le pourcentage de temps de fracture réduit par partie du corps fracturée, si une fracture survient après qu'un joueur portant une ceinture de sécurité a subi des dommages causés par un accident de voiture. Cela n'empêche pas réellement les fractures à moins d'être réglé sur 100.",
+
+	Sandbox_workingSeatbelt_seatbeltCausesChestFracture = "La ceinture de sécurité provoque une fracture thoracique",
+	Sandbox_workingSeatbelt_seatbeltCausesChestFracture_tooltip = "Si activé, il y aura une chance aléatoire pour le joueur d'avoir une fracture à la poitrine, s'il s'écrase alors que la ceinture de sécurité est attachée",
+
+	Sandbox_workingSeatbelt_chanceChestFracture = "Risque de fracture thoracique",
+	Sandbox_workingSeatbelt_chanceChestFracture_tooltip = "La possibilité pour le joueur d'avoir une fracture de la poitrine s'il subit des dégâts lors d'un accident de voiture alors que la ceinture de sécurité est attachée",
+
+	Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength = "Force minimale de collision en cas de fracture thoracique",
+	Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength_tooltip = "La force minimale de collision requise pour qu'un joueur subisse une fracture de la poitrine alors que la ceinture de sécurité est bouclée",
+
+	Sandbox_workingSeatbelt_chestFractureTime = "Temps de fracture thoracique",
+	Sandbox_workingSeatbelt_chestFractureTime_tooltip = "Définit le temps de fracture thoracique si une fracture est appliquée à la poitrine lors d'un accident de voiture, alors que la ceinture de sécurité est bouclée",
+
+	Sandbox_workingSeatbelt_exitVehicleAutoUnfasten = "Détache automatiquement la ceinture de sécurité à la sortie du véhicule",
+	Sandbox_workingSeatbelt_exitVehicleAutoUnfasten_tooltip = "Force automatiquement le joueur à se détacher si il/elle tente de sortir du véhicule alors que la ceinture de sécurité est attachée. S'il est défini sur "false", le joueur devra se détacher manuellement avant de sortir",
+
+	Sandbox_workingSeatbelt_switchSeatAutoUnfasten = "Détache automatiquement la ceinture de sécurité au changement de siège",
+	Sandbox_workingSeatbelt_switchSeatAutoUnfasten_tooltip = "Force automatiquement le joueur à se détacher si il/elle tente de changer de siège alors que la ceinture de sécurité est attachée. S'il est défini sur "false", le joueur devra le détacher manuellement avant de changer de siège",
+
+	Sandbox_workingSeatbelt_seatbeltWarningIndicator = "Indicateur d'avertissement de ceinture de sécurité",
+	Sandbox_workingSeatbelt_seatbeltWarningIndicator_tooltip = "Si cette option est activée, un indicateur d'avertissement s'affiche sur le tableau de bord du véhicule si le conducteur allume le moteur d'un véhicule sans porter de ceinture de sécurité ou si il/elle détache la ceinture de sécurité lorsque le moteur tourne.",
+
+	Sandbox_workingSeatbelt_seatbeltWarningChime = "Alarme d'avertissement de ceinture de sécurité",
+	Sandbox_workingSeatbelt_seatbeltWarningChime_tooltip = "Si cette option est activée, un signal sonore sera émis si le conducteur allume le moteur d'un véhicule sans porter de ceinture de sécurité ou si il/elle détache la ceinture de sécurité lorsque le moteur tourne.",
+
+	Sandbox_workingSeatbelt_playersToggleChime = "Les joueurs peuvent des/activer l'alarme sonore de ceinture de sécurité",
+	Sandbox_workingSeatbelt_playersToggleChime_tooltip = "Les joueurs peuvent ou non cliquer avec le bouton droit de la souris sur l'indicateur de ceinture de sécurité pour activer/désactiver l'alarme sonore.",
+
+	Sandbox_workingSeatbelt_chimeMinimumSpeed = "Vitesse minimale du véhicule pour l'alarme sonore (KM/H)",
+	Sandbox_workingSeatbelt_chimeMinimumSpeed_tooltip = "La vitesse minimale du véhicule pour que l'alarme sonore de ceinture de sécurité commence à fonctionner (KM/H)",
+
+	Sandbox_workingSeatbelt_airbagModule = "Module d'Airbag",
+	Sandbox_workingSeatbelt_airbagModule_tooltip = "Si désactivé, les Airbags ne rempliront aucune fonction et n'affecteront pas ou ne seront pas affectés par les accidents de voiture",
+
+	Sandbox_workingSeatbelt_loreFriendlyAirbags = "Airbags Réalistes",
+	Sandbox_workingSeatbelt_loreFriendlyAirbags_tooltip = "Si activé, certains véhicules n'auront pas d'airbags selon le lore Project Zomboid",
+
+	Sandbox_workingSeatbelt_airbagMinimumCrashStrength = "Force minimale de collision de l'airbag",
+	Sandbox_workingSeatbelt_airbagMinimumCrashStrength_tooltip = "La force minimale de collision pour qu'un airbag soit déployé",
+
+	Sandbox_workingSeatbelt_airbagDamageReduction = "Réduction des dommages des airbags",
+	Sandbox_workingSeatbelt_airbagDamageReduction_tooltip = "Le pourcentage de dégâts réduits lorsqu'un airbag est déployé",
+
+	Sandbox_workingSeatbelt_airbagFractureReduction = "Réduction des fractures des airbags",
+	Sandbox_workingSeatbelt_airbagFractureReduction_tooltip = "Le pourcentage de temps de fracture réduit par partie du corps fracturée, si une fracture est causée après le déploiement d'un coussin gonflable à la suite d'un accident de voiture. Cela n'empêche pas réellement les fractures à moins d'être réglé sur 100",
+
+	Sandbox_workingSeatbelt_airbagsAffectedByCondition = "Airbags affectés par leur condition",
+	Sandbox_workingSeatbelt_airbagsAffectedByCondition_tooltip = "Si activé, la réduction des dégâts des airbags sera affectée par leur état général",
+
+	Sandbox_workingSeatbelt_airbagDeploymentAlert = "Alerte de déploiement des Airbags",
+	Sandbox_workingSeatbelt_airbagDeploymentAlert_tooltip = "Si activé, une alerte s'affichera au-dessus du joueur lorsque l'airbag se déploie",
+
+	Sandbox_workingSeatbelt_canPlayerBeEjected = "Le joueur peut être éjecté",
+	Sandbox_workingSeatbelt_canPlayerBeEjected_tooltip = "Le joueur peut être éjecté du pare-brise lors d'un grave accident de voiture, si le pare-brise est cassé et que le joueur ne porte pas de ceinture de sécurité. AVERTISSEMENT : ENTRAÎNERA TRÈS PROBABLEMENT LA MORT !",
+
+	Sandbox_workingSeatbelt_ejectMinimumCrashStrength = "Force minimale d'éjection en cas de collision",
+	Sandbox_workingSeatbelt_ejectMinimumCrashStrength_tooltip = "La force minimale de collision pour qu'un joueur soit éjecté du pare-brise",
+}

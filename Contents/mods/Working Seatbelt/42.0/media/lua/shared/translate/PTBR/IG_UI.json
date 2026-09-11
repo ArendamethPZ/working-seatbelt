@@ -1,0 +1,7 @@
+{
+ "IGUI_VehiclePartAirbagFrontLeft": "Airbag Dianteiro Esquerdo",
+ "IGUI_VehiclePartAirbagFrontRight": "Airbag Dianteiro Direito",
+ "IGUI_PlayerSayExitVehicle": "Não posso sair enquanto o cinto de segurança estiver fivelado",
+ "IGUI_PlayerSaySwitchSeat": "Não posso trocar de assento enquanto o cinto de segurança estiver fivelado",
+ "IGUI_PlayerSayDeployAirbag": "*O airbag é acionado*"
+}

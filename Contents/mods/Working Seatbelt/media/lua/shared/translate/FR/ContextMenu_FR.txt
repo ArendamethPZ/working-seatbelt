@@ -1,0 +1,5 @@
+ContextMenu_FR = {
+	ContextMenu_FastenSeatbelt = "S'attacher",
+	ContextMenu_UnfastenSeatbelt = "Se détacher",
+	ContextMenu_ToggleSeatbeltChime = "Alarme de ceinture de sécurité",
+}

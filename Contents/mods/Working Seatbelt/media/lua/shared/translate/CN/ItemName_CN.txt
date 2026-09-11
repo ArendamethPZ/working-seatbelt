@@ -1,0 +1,3 @@
+ItemName_CN = {
+	ItemName_Base.Airbag = "安全气囊",
+}

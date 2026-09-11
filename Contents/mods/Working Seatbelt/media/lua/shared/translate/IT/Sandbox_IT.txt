@@ -1,0 +1,66 @@
+Sandbox_IT = {
+	Sandbox_workingSeatbelt_workingSeatbeltOptions = "Opzioni Cintura di Sicurezza Funzionante",
+
+	Sandbox_workingSeatbelt_seatbeltDamageReduction = "Riduzione Danni Cintura di Sicurezza",
+	Sandbox_workingSeatbelt_seatbeltDamageReduction_tooltip = "La percentuale di danni ridotti se un giocatore che indossa la cintura di sicurezza subisce danni da un incidente stradale",
+
+	Sandbox_workingSeatbelt_seatbeltFractureReduction = "Riduzione Frattura Cintura di Sicurezza",
+	Sandbox_workingSeatbelt_seatbeltFractureReduction_tooltip = "La percentuale di riduzione del tempo di frattura per ogni parte del corpo fratturata, se una frattura risulta dopo che un giocatore che indossa la cintura di sicurezza subisce danni da un incidente stradale.<br>Non previene effettivamente le fratture se non è impostata a 100",
+
+	Sandbox_workingSeatbelt_seatbeltCausesChestFracture = "La Cintura di Sicurezza Causa Frattura del Torace",
+	Sandbox_workingSeatbelt_seatbeltCausesChestFracture_tooltip = "Se abilitata, ci sarà una possibilità casuale che il giocatore si procuri una frattura al torace, se si schianta mentre la cintura di sicurezza è allacciata",
+
+	Sandbox_workingSeatbelt_chanceChestFracture = "Probabilità Frattura del Torace",
+	Sandbox_workingSeatbelt_chanceChestFracture_tooltip = "La probabilità che il giocatore si procuri una frattura al torace se subisce un danno da un incidente d'auto mentre la cintura di sicurezza è allacciata",
+
+	Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength = "Forza Minima d'Urto per Frattura del Torace",
+	Sandbox_workingSeatbelt_chestFractureMinimumCrashStrength_tooltip = "La forza minima d'urto necessaria perché un giocatore si procuri una frattura al torace mentre ha la cintura allacciata",
+
+	Sandbox_workingSeatbelt_chestFractureTime = "Tempo Frattura del Torace",
+	Sandbox_workingSeatbelt_chestFractureTime_tooltip = "Definisce il tempo di frattura del torace se viene inflitta una frattura al torace in un incidente d'auto, mentre la cintura di sicurezza è allacciata",
+
+	Sandbox_workingSeatbelt_exitVehicleAutoUnfasten = "Slacciamento Automatico Cintura di Sicurezza all'Uscita del Veicolo",
+	Sandbox_workingSeatbelt_exitVehicleAutoUnfasten_tooltip = "Forza automaticamente il giocatore nell'azione temporizzata di slacciamento della cintura di sicurezza se il giocatore tenta di uscire dal veicolo con la cintura allacciata.<br>Se impostata su Falso, il giocatore dovrà slacciarla manualmente prima di uscire dal veicolo",
+
+	Sandbox_workingSeatbelt_switchSeatAutoUnfasten = "Slacciamento Automatico Cintura di Sicurezza su Cambio Sedile",
+	Sandbox_workingSeatbelt_switchSeatAutoUnfasten_tooltip = "Forza automaticamente il giocatore all'azione temporizzata di slacciamento della cintura di sicurezza se tenta di cambiare posto mentre la cintura di sicurezza è allacciata.<br>Se impostata su Falso, il giocatore dovrà slacciarla manualmente prima di cambiare sedile",
+
+	Sandbox_workingSeatbelt_seatbeltWarningIndicator = "Indicatore Avviso Cintura di Sicurezza",
+	Sandbox_workingSeatbelt_seatbeltWarningIndicator_tooltip = "Se abilitata, sul cruscotto del veicolo viene visualizzato un indicatore di avviso se il conducente accende il motore del veicolo senza indossare la cintura di sicurezza o se slaccia la cintura di sicurezza mentre il motore è acceso",
+
+	Sandbox_workingSeatbelt_seatbeltWarningChime = "Suono di Avviso Cintura di Sicurezza",
+	Sandbox_workingSeatbelt_seatbeltWarningChime_tooltip = "Se abilitata, viene emesso un segnale acustico se il conducente accende il motore del veicolo senza indossare la cintura di sicurezza o se slaccia la cintura di sicurezza mentre il motore è acceso",
+
+	Sandbox_workingSeatbelt_playersToggleChime = "Players can toggle seatbelt chime",
+	Sandbox_workingSeatbelt_playersToggleChime_tooltip = "Whether or not players can right click the seatbelt indicator to toggle the chime on/off.",
+
+	Sandbox_workingSeatbelt_chimeMinimumSpeed = "Velocità Minima Veicolo per Avviso (KM/H)",
+	Sandbox_workingSeatbelt_chimeMinimumSpeed_tooltip = "La velocità minima del veicolo per l'avvio del funzionamento del segnale acustico delle cinture di sicurezza (KM/H)",
+
+	Sandbox_workingSeatbelt_airbagModule = "Modulo Airbag",
+	Sandbox_workingSeatbelt_airbagModule_tooltip = "Se disabilitata, gli airbag non avranno alcuna funzione, né influenzeranno/saranno influenzati dagli incidenti d'auto",
+
+	Sandbox_workingSeatbelt_loreFriendlyAirbags = "Airbag Coerenti con Lore",
+	Sandbox_workingSeatbelt_loreFriendlyAirbags_tooltip = "Se abilitata, alcuni veicoli non avranno airbag secondo la tradizione di Zomboid",
+
+	Sandbox_workingSeatbelt_airbagMinimumCrashStrength = "Forza Minima d'Urto per Airbag",
+	Sandbox_workingSeatbelt_airbagMinimumCrashStrength_tooltip = "La forza minima d'urto per l'attivazione dell'airbag",
+
+	Sandbox_workingSeatbelt_airbagDamageReduction = "Riduzione Danni Airbag",
+	Sandbox_workingSeatbelt_airbagDamageReduction_tooltip = "La percentuale di riduzione del danno in caso di attivazione dell'airbag",
+
+	Sandbox_workingSeatbelt_airbagFractureReduction = "Riduzione Frattura Airbag",
+	Sandbox_workingSeatbelt_airbagFractureReduction_tooltip = "La percentuale di riduzione del tempo di frattura per ogni parte del corpo fratturata, se si verifica una frattura dopo l'attivazione dell'airbag a causa di un incidente stradale.<br>Non previene effettivamente le fratture se non è impostato su 100",
+
+	Sandbox_workingSeatbelt_airbagsAffectedByCondition = "Airbag Influenzati dalla Condizione",
+	Sandbox_workingSeatbelt_airbagsAffectedByCondition_tooltip = "Se abilitata, la riduzione dei danni degli airbag sarà influenzata dalla loro condizione",
+
+	Sandbox_workingSeatbelt_airbagDeploymentAlert = "Avviso Attivazione Airbag",
+	Sandbox_workingSeatbelt_airbagDeploymentAlert_tooltip = "Se abilitata, un avviso viene visualizzato sopra il giocatore quando l'airbag si attiva",
+
+	Sandbox_workingSeatbelt_canPlayerBeEjected = "Il Giocatore può essere Espulso",
+	Sandbox_workingSeatbelt_canPlayerBeEjected_tooltip = "Se il giocatore può o meno essere scaraventato fuori dal parabrezza in caso di grave incidente stradale, se il parabrezza è rotto e il giocatore non indossa la cintura di sicurezza.<br>ATTENZIONE: MOLTO PROBABILMENTE PORTERÀ ALLA MORTE!",
+
+	Sandbox_workingSeatbelt_ejectMinimumCrashStrength = "Forza Minima d'Urto per Espulsione",
+	Sandbox_workingSeatbelt_ejectMinimumCrashStrength_tooltip = "La forza minima di impatto per far sì che un giocatore venga espulso dal parabrezza",
+}

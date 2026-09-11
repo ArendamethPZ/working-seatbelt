@@ -1,0 +1,16 @@
+module Base
+{
+    sound Airbag
+	{
+		category = player,
+		clip
+		{
+			file = media/sound/airbag_deploy.ogg,
+		}
+	}
+	sound Chime
+	{
+		category = Player, is3D = true,
+        clip { file = media/sound/chime.ogg, distanceMax = 20, volume = 0.5, }
+	}
+}
