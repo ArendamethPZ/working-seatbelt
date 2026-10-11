@@ -79,6 +79,14 @@ WorkingSeatbelt.seatbeltBlacklist = {
 ---@param character IsoPlayer
 ---@param fasten    boolean
 function WorkingSeatbelt.onDoSeatbelt(character, fasten)
+	-- Skip if the same action is already queued, e.g. the seat menu's "exit through another door" switches seats
+	-- and then exits, and both of those auto-unfasten
+	local queue = ISTimedActionQueue.queues[character]
+	if queue then
+		for _, action in ipairs(queue.queue) do
+			if action.Type == "ArenSeatbeltTimedAction" and action.fasten == fasten then return end
+		end
+	end
 	ISTimedActionQueue.add(ArenSeatbeltTimedAction:new(character, fasten))
 end
 

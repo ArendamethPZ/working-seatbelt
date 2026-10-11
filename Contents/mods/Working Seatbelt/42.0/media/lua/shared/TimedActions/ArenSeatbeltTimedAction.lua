@@ -39,10 +39,6 @@ function ArenSeatbeltTimedAction:perform()
                 vehicle:getEmitter():playSoundImpl("Chime", IsoObject.new())
             end
         end
-
-        if SandboxVars.workingSeatbelt.seatbeltWarningIndicator then
-            ISVehicleDashboard.sbTex:setVisible(not self.fasten)
-        end
     end
 
     ISBaseTimedAction.perform(self)

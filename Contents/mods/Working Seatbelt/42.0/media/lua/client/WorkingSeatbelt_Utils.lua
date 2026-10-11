@@ -34,11 +34,6 @@ function ISShutOffVehicleEngine:perform(...)
 
     if not vehicle then return end
 
-    if SandboxVars.workingSeatbelt.seatbeltWarningIndicator then
-        -- Hide the seatbelt indicator when the engine stops
-        ISVehicleDashboard.sbTex:setVisible(false)
-    end
-
     if SandboxVars.workingSeatbelt.seatbeltWarningChime then
         -- Stop the chime sound
         if vehicle:getEmitter():isPlaying("Chime") then
